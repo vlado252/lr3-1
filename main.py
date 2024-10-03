@@ -1,10 +1,6 @@
-n = int(input("Введите количество школьников:"))
-k = int(input("Введите количество яблок: "))
+x = int(input("Введите целое число: "))
 
-yabloki = k // n
-ostatok = k - yabloki*n
-
-
-print(yabloki)
-print ("По ", yabloki, "каждому школьнику.")
-print(ostatok, "яблок останется в корзине.")
+if x % 2 == 0:
+    print("Число четное.")
+else:
+    print("Число нечетное.")
